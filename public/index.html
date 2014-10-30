@@ -1,0 +1,19 @@
+<html ng-app='watchuwant'>
+<head>
+	<title>I am watching you</title>
+</head>
+<body ng-controller='WatchController'>
+	<ul ng-repeat='watch in watches'>
+		<li>Color: {{watch.color}}</li>
+		<li>Price: {{watch.price}}</li>
+		<li>Brand: {{watch.brand}}</li>
+	</ul>
+
+
+<script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js'></script>
+<script type="text/javascript" src='js/app.js'></script>
+<script type="text/javascript" src='js/WatchController.js'></script>
+<script type="text/javascript" src='js/watchService.js'></script>
+
+</body>
+</html>
